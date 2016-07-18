@@ -1,0 +1,7 @@
+有多个Realm的时候
+
+securityManager 会按照 realms 指定的顺序进行身份认证。此处我们使用显示指定顺序的方
+式指定了 Realm 的顺序，如果删除“securityManager.realms=$myRealm1,$myRealm2”，那
+么 securityManager 会按照 realm 声明的顺序进行使用（即无需设置 realms 属性，其会自动
+发 现 ） ， 当 我 们 显 示 指 定 realm 后 ， 其 他 没 有 指 定 realm 将 被 忽 略 ， 如
+“securityManager.realms=$myRealm1”，那么 myRealm2 不会被自动设置进去。

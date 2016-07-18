@@ -1,0 +1,4 @@
+1、本例主要讲解使用subject.runAs();方法，该方法可以将登陆用户切换到另外一个  用户，包括角色、权限全部切换到到另外一个用户。
+	使用的就是subject.runAs(PrincipalCollection principal)方法实现的
+
+2、如果再想切换回之前的用户，那么使用subject.releaseRunAs()方法即可，切换到之前的用户。

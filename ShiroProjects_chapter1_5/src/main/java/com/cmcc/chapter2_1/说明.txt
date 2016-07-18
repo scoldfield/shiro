@@ -1,0 +1,14 @@
+这里realm.ini的配置使用的是org.apache.shiro.realm.text.IniRealm，且文件名必须是realm.ini
+其中主要默认实现如下：
+
+1、org.apache.shiro.realm.text.IniRealm：[users]部分指定用户名/密码及其角色；[roles]部分指
+定角色即权限信息；
+
+2、org.apache.shiro.realm.text.PropertiesRealm：user.username=password,role1,role2 指定用户
+名/密码及其角色；role.role1=permission1,permission2 指定角色及权限信息；
+
+3、org.apache.shiro.realm.jdbc.JdbcRealm： 通过 sql 查询相应的信息， 如 “select password from
+users where username = ?”获取用户密码，“select password, password_salt from users where
+username = ?”获取用户密码及盐；“select role_name from user_roles where username = ?”
+获取用户角色；“select permission from roles_permissions where role_name = ?”获取角色对
+应的权限信息；也可以调用相应的 api 进行自定义 sql；

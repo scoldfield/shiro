@@ -1,0 +1,1 @@
+EhCacheManager.java文件是spring框架整合的处理cache的文件，这里因为没有使用spring框架，所以单独挑出来使用

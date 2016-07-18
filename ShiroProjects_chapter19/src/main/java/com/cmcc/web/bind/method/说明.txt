@@ -1,0 +1,1 @@
+针对自定义的@CurrentUser注解，该例中的处理方法使用的是HandlerMethodArgumentResolver类来处理注解；以前我写过的一个项目是使用AOP来处理注解
