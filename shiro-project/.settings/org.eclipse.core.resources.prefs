@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/main/java=UTF-8
+encoding//src/main/java/com/cmcc/shiro/dao/IRoleDao.java=UTF-8
+encoding//src/main/java/com/cmcc/shiro/service/IRoleService.java=UTF-8
+encoding//src/main/java/com/cmcc/shiro/service/UserService.java=UTF-8
+encoding//src/main/java/com/cmcc/shiro/web/InitServlet.java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/test/java=UTF-8
+encoding//src/test/java/com/cmcc/shiro/test/service/TestRoleService.java=UTF-8
+encoding//src/test/java/com/cmcc/shiro/test/service/TestShiro.java=UTF-8
+encoding//src/test/java/com/cmcc/shiro/test/service/TestUserService.java=UTF-8
+encoding/<project>=UTF-8
